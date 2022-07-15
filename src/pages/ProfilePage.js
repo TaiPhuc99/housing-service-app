@@ -99,7 +99,7 @@ export default function ProfilePage() {
           return listing.id !== idListing;
         })
       );
-      toast.success("Successfully deleted listing");
+      toast.success("Successfully deleted Service");
     }
   };
 
